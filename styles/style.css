@@ -1,77 +1,77 @@
 body {
-    background-color: rgb(255, 255, 255);
-  }
-  
+  background-color: rgb(94, 92, 92);
+}
+
 
 
 
 #div-2 {
-    background-color: brown;
-    
-    display: inline;
-  font-size: 20px;
-  padding: 20px;
-  padding: 2px;
-  border: 1px solid blue;    
-  background-color: rgb(199, 199, 191);
+  background-color: brown;
+  
+  display: inline;
+font-size: 20px;
+padding: 20px;
+padding: 2px;
+border: 1px solid blue;    
+background-color: rgb(199, 199, 191);
 }
 
 .div-1 {
 
-    background-color: burlywood;
-  
-  padding: 5px;
-  border: 1px solid rgb(239, 239, 247);    
-  background-color: rgb(175, 175, 175); 
-  font-family: sans-serif; 
+  background-color: burlywood;
+
+padding: 5px;
+border: 1px solid rgb(239, 239, 247);    
+background-color: rgb(175, 175, 175); 
+font-family: sans-serif; 
 
 
 }
 
 
 p {
-    font-family: 'geneva';
-    font-size: 16px;
-    font-style: oblique;
-    font-weight: bold; 
-    
-  }
-
-  h1 
-    {
-       font-size: 1.875em; /* 30px/16=1.875em */
-       font-style: italic;
-        color: rgb(189, 172, 172);
-        text-align: center;
-        border:2px solid black;
-        list-style-type: none;
-        text-align: center;
-  
-        
-  
-        
-      }
-   
-      h2 {
-   display: inline;
-  width: 100px;
-  height: 100px;
-  padding: 4px;
-  border: 0,9px solid blue;    
-  background-color: rgb(155, 155, 141); 
-  /* */
-   cursor: pointer;
-   font-size: 9px;
+  font-family: 'geneva';
+  font-size: 16px;
+  font-style: oblique;
+  font-weight: bold; 
   
 }
-    
+
+h1 
+  {
+     font-size: 1.875em; /* 30px/16=1.875em */
+     font-style: italic;
+      color: rgb(189, 172, 172);
+      text-align: center;
+      border:2px solid black;
+      list-style-type: none;
+      text-align: center;
+
+      
+
+      
+    }
+ 
+    h2 {
+ display: inline;
+width: 100px;
+height: 100px;
+padding: 4px;
+border: 0,9px solid blue;    
+background-color: rgb(155, 155, 141); 
+/* */
+ cursor: pointer;
+ font-size: 9px;
+
+}
+  
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    max-width: 100%;
-    height: auto;
-    
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 100%;
+  height: auto;
+  
+}
