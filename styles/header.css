@@ -1,0 +1,14 @@
+header {
+    background-color: lavenderblush;
+    height: 70px;
+    
+}
+
+nav {
+    height: 100%;
+}
+
+nav .d-flex {
+
+    gap: 30px;
+}
