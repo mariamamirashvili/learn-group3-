@@ -1,14 +1,46 @@
 header {
-    background-color: lavenderblush;
-    height: 70px;
+    background: #2c2c32;
+    border: none;
+    margin-bottom: 0;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 16px;
     
 }
 
-nav {
-    height: 100%;
+
+ header .logo {
+    width: 25px;
+    height: 25px;
+
 }
 
-nav .d-flex {
+nav a {
+ color: rgb(68, 68, 68);
+ text-decoration: none;
+ padding: 0 10px;
+ margin-top: 25px;
+ font-size: 16px;
+}
+nav h1 {
+    color: white;
+    padding: 0 10px;
+    
+}
 
-    gap: 30px;
+nav a :hover {
+    text-decoration: underline;
+     font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+
+}
+
+
+nav .d-flex {
+    gap: 2px;
+}
+
+ 
+nav {
+    height: 100%;
 }
