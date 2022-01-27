@@ -8,15 +8,18 @@
     padding-block: 30px;
     background-color: rgba(44, 44 , 50);
 }
-
+.container  {
+    width: 1200px;
+    margin-inline: auto;
+}
 .welcome-container .container {
  display: grid;
  grid-template-columns: 1fr minmax(0, 2fr);
-
+ grid-gap: 2px;
 }
 
-.container {
-    width: 800px;
+.welcome-container .container {
+    width: 1200px;
     margin-inline: auto;
 }
 
@@ -26,7 +29,7 @@
     font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif
 }
 .welcome-container .imp-prew {
- width: 100%;
+ width: 70%;
 
 }
 
@@ -183,6 +186,7 @@ text-decoration: none;
  }
  /*features css*/
  .features-container {
+
      text-align: center;
  }
  .features-container .container > div  { 
