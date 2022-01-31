@@ -190,12 +190,13 @@ text-decoration: none;
      text-align: center;
  }
  .features-container .container > div  { 
-   
+    
      margin-bottom: 15px;
  }
 .features-container .container{ 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);}
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;}
 
 .features-container .container > div {
     padding-block: 30px;}
@@ -227,3 +228,90 @@ text-decoration: none;
 .features-container .container > div:last-child:hover i{
     color: rgb(202, 143, 24);
    }
+   .features-container i {
+    font-size: 65px;
+    margin-bottom:  15px;
+
+    
+}
+/* */
+section{
+    padding-block: 60px;
+    
+}
+section:nth-child(odd) {
+    background-color: rgb(245, 245, 245);
+
+}
+
+section:nth-child(odd) div div:first-child {
+    order: 2;
+    }
+section:nth-child(odd) .div div:last-child {
+        order: 1;}
+
+.info-section > div{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 15;
+}
+
+.info-section > div div:first-child {
+    width: 35%;
+}
+.info-section img{
+    width: 100%;
+    display: block;
+
+}
+.testimonials-section > div {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column-gap: 15px;
+    position: relative;
+}
+.testimonials-section > div .arrow {
+    position: absolute;
+    top: 80px;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.testimonials-section > div .arrow.fa-arrow-left {
+    left: -50px;
+}
+.testimonials-section > div .arrow.fa-arrow-right {
+    right:  -50px;
+}
+.external-langs h1 {
+    text-align: center;
+}
+
+.external-langs .d-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.external-langs .external-link {
+    display: block;
+    color: dodgerblue;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.external-langs .btn {
+    display: flex;
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
