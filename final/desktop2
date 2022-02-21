@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Final-project</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Final-project2</title>
       <link rel="stylesheet" href="./styles/main.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
@@ -77,7 +79,7 @@
     </div>
 
     <div class="solution-1">
-        <div><img class="img-1"src="./assets/img /6.webp" alt="." width="100%"></div>
+        <div><img class="img-1"src="./assets/img /9.jpg" alt="." width="100%"></div>
          <div class="space-1">
            <small>Solution 1</small>
          <h2>
@@ -96,9 +98,7 @@
           <img class="img-2" src="./assets/img /7.jpg" alt="." width="100%">
         </div> 
        </div>
-    
   </div>
-
     <div class="conclusion">
     <small> conclusion
     </small>
@@ -109,13 +109,17 @@
   </div>
   
 <!--ending-->
-
   <div class="ending-img">
     <img src="./assets/img /14.jpg" alt="" width="100%">
   </div>
 <div class="next-case">
-  <a  class="click"
-  href="#">Next case</a>
+    <h1>Next Case</h1>
+    <div class="line">
+    </div>
+</div>
+<div class="line">
+  -
+</div>
 </div>
 <!--footer-->
 <div class="footer">
