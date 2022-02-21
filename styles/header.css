@@ -1,0 +1,46 @@
+
+header {
+    background: #2c2c32;
+    border: none;
+    margin-bottom: 0;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 16px;
+    
+}
+
+
+ header .logo {
+    width: 25px;
+    height: 25px;
+
+}
+nav h1 {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+nav a {
+ color: rgb(68, 68, 68);
+ text-decoration: none;
+ padding:  32px;
+ font-size: 16px;
+ padding-left: 15px;
+}
+nav a :hover i {
+    text-decoration: underline;
+     font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+
+}
+
+
+nav .d-flex {
+    gap: 2px;
+}
+
+ 
+nav {
+    height: 100%;
+}

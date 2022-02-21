@@ -9,3 +9,7 @@
 .align-items-center {
     align-items: center;
 }
+.tooltip-container .container {
+    display: grid;
+    grid-template-columns: 60px minmax(0, 1fr);
+}
