@@ -1,0 +1,164 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+letter-spacing: -0.5px;
+color: #DEDEDE;
+}
+.first-text small {
+font-size: 16px;
+line-height: 16px;
+/* padding: 40px; */
+margin: auto;
+}
+
+.first-text {
+padding: 35px;
+font-size: 28px;
+line-height: 48px;
+letter-spacing: -0.5px;
+color: #DEDEDE;
+margin: 50px;
+
+}
+
+.text-container .container {
+  display: grid;
+  align-items:center;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  color: #DEDEDE;
+  margin: 50px;
+  padding: 5px;
+
+}
+
+
+.text-container .container h1 {
+font-size: 28px;
+line-height: 30px;
+
+}
+
+
+.workplace-img {
+   max-width: auto;
+
+}
+
+
+.second-text small{
+ margin: 75px;
+ font-size: 16px;
+line-height: 16px;
+}
+
+.second-text p {
+ padding: 35px;
+font-size: 28px;
+line-height: 48px;
+letter-spacing: -0.5px;
+color: #DEDEDE;
+margin: 50px;
+}
+
+
+
+
+.last-text a {
+color: lightgray;
+margin: 75px;
+font-size: 16px;
+line-height: 16px;
+text-decoration: lightgray;
+    
+}
+
+.office-img {
+    max-width: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.solution-1 .img-1 {
+     max-width: fit-content;
+     margin:100px;
+     
+
+}
+
+.solution-1 {
+    display: flex;
+    color: white;
+    padding-left: 19%;
+    padding-top: 1%;
+    margin-left: -80px;
+}
+
+.solution-1 small {
+
+    padding-top: 12%;
+    padding-left: 0%;
+}
+
+
+.solution-1 .space-1{
+
+ padding-top: 14%;
+ margin-left: 7%;
+}
+ .space .img-2 {
+    max-width: fit-content;
+     margin:100px;
+}
+
+
+.solution-2  {
+    display: flex;
+    color: white;
+    padding-left: 17%;
+    padding-top: 10%;
+    
+}
+.solution-2 .space {
+    padding-top: 12%;
+    margin-right: 8%;
+}
+
+
+.conclusion p{
+ padding: 35px;
+font-size: 28px;
+line-height: 48px;
+letter-spacing: -0.5px;
+color: #DEDEDE;
+margin: 50px;
+}
+
+ .conclusion small {
+    font-size: 16px;
+    line-height: 16px;
+    /* padding: 40px; */
+    margin: 7%;
+}
+
+.ending-img {
+    padding-top: 10%;
+    max-width: fit-content;
+    margin: 10% 20%;
+}
+
+
+.next-case .click {
+    
+    color: white;
+    padding-top: 10%;
+    padding-left: 39%;
+    margin: 10% ;
+    text-align: center;
+    line-break: auto;
+    
+}
